@@ -11,7 +11,7 @@ import {
   Pencil,
   Replace,
   Target,
-  Layers3,
+  Layers,
   CheckCircle2,
 } from "lucide-react";
 import {
@@ -585,7 +585,7 @@ export default function CalibratedItemBankReactDashboard() {
             <div className="rounded-[30px] border border-slate-200 bg-white p-5 shadow-sm">
               <div className="mb-4 flex items-center justify-between">
                 <div className="flex items-center gap-2 text-lg font-black tracking-tight text-slate-900">
-                  <Layers3 className="h-5 w-5 text-blue-600" /> 시험 목록
+                  <Layers className="h-5 w-5 text-blue-600" /> 시험 목록
                 </div>
                 <div className="text-xs font-bold text-slate-500">{filteredExams.length}건</div>
               </div>
